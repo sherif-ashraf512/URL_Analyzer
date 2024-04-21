@@ -138,10 +138,16 @@ body{
 
 @media(max-width: 792px){
     .container{
-        & .get{
-            & span{
-                display: none;
+        & .form{
+            width: 99%;
+            & .get{
+                & span{
+                    display: none;
+                }
             }
+        }
+        & .info{
+            width: 99%;
         }
     }
 }
