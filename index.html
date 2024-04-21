@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="master.css">
+    <title>url analyse</title>
+</head>
+<body>
+    <div class="container">
+        <div class="form">
+            <input onkeyup="get_info()" type="text" name="url" id="url" placeholder="Type URL">
+            <div class="get" onclick="get_info()"> 
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <span>Get Info</span>
+            </div>
+        </div>
+        <div class="info">
+            <p>Characters count: <span class="count"></span></p>
+            <p>Letter case: <span class="case"></span></p>
+            <p>Percentage of capital letters: <span class="cap-perc"></span></p>
+            <p>Percentage of small letters: <span class="sml-perc"></span></p>
+            <p>Underscores count: <span class="underscore"></span></p>
+            <p>Hyphens count: <span class="hyphen"></span></p>
+            <p>Spaces count: <span class="space"></span></p>
+            <p>length description: <span class="length"></span></p>
+        </div>
+    </div>
+    <footer>
+        <div class="footer">
+            <p>&copy; Developed by Sherif Ashraf</p>
+            <p id="contact">Contact & Follow Me <i class="fa-solid fa-angles-down"></i></p>
+            <div class="contact">
+                <a href="https://www.facebook.com/Sherif.Ashraf512?mibextid=ZbWKwL" id="facebook" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.linkedin.com/in/sherif-ashraf512?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" id="linkedin" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://x.com/Sherifashraf512?t=2lrNLtFHCsj8KdLERqmsjw&s=09" id="x" target="_blank"><i class="fa-brands fa-square-x-twitter"></i></a>
+                <a href="https://instagram.com/sherif_ashraf512?igshid=NzZlODBkYWE4Ng==" id="instagram" target="_blank"><i class="fa-brands fa-square-instagram"></i></a>
+                <a href="mailto:sherifashraf51203@gmail.com" id="mail" target="_blank"><i class="fa-solid fa-envelope"></i></a>
+            </div>
+            <p>2024</p>
+        </div>
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>
